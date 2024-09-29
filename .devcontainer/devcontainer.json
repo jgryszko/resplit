@@ -11,9 +11,11 @@
     "vscode": {
       "extensions": [
         "GitHub.copilot",
-        "ms-azuretools.vscode-docker",
-        "rust-lang.rust"
-      ]
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "rust-analyzer.cargo.autoreload": true
+      }
     }
   }
 }
