@@ -2,5 +2,12 @@
   "name": "Rust",
   "image": "mcr.microsoft.com/devcontainers/rust:0-1-bullseye",
   "features": {
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "GitHub.copilot"
+      ]
+    }
   }
 }
