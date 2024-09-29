@@ -1,12 +1,22 @@
 {
   "name": "Rust",
-  "image": "mcr.microsoft.com/devcontainers/rust:0-1-bullseye",
+  //"image": "mcr.microsoft.com/devcontainers/rust:0-1-bullseye",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
   "features": {
   },
   "customizations": {
     "vscode": {
       "extensions": [
-        "GitHub.copilot"
+        "GitHub.copilot",
+        "ms-azuretools.vscode-docker",
+        "rust-lang.rust",
+        "vadimcn.vscode-lldb",
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "dunstontc.vscode-rust-syntax"
       ]
     }
   }
