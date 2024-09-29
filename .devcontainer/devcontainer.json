@@ -12,11 +12,7 @@
       "extensions": [
         "GitHub.copilot",
         "ms-azuretools.vscode-docker",
-        "rust-lang.rust",
-        "vadimcn.vscode-lldb",
-        "ms-vscode.cpptools",
-        "ms-vscode.cmake-tools",
-        "dunstontc.vscode-rust-syntax"
+        "rust-lang.rust"
       ]
     }
   }
